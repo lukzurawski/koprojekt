@@ -41,7 +41,7 @@ $color350: #17263A; //very dark blue
 @mixin jakarta-extrabold {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 900;
+  font-weight: 800;
   font-style: normal;
 }
 
@@ -49,7 +49,24 @@ $color350: #17263A; //very dark blue
 @mixin boxShadowReg {
     box-shadow: 0px 10px 30px 0px rgba(21,101,169,0.15);
 }
-@mixin boxShadowLight {
-    box-shadow: 0 45px 35px -30px rgba(0, 0, 0, .3);
+
+
+// <<< GLASS EFFECT >>>
+
+@mixin darkglass {
+    background: rgba(11, 31, 58, 0.2);
+    border: 1px solid rgba(234, 244, 252, 0.18);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    box-shadow: 0 15px 35px 0px rgba(23, 38, 58, 0.25);
 }
 
+// <<< gradients >>>
+@mixin lightgradient {
+    background: #FFFFFF;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 35%, rgba(247, 250, 253, 0.5) 100%);
+}
+@mixin backgroundgradient {
+    background: #F7FAFD;
+    background: linear-gradient(148deg, rgba(247, 250, 253, 1) 0%, rgba(234, 244, 252, 1) 100%);
+}
