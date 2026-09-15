@@ -1,0 +1,55 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/assets/bootstrap5/_variables.scss, paste it here and edit the value.
+
+
+// <<< DESIGN SYSTEM >>>
+$color100: #1565A9; //primary blue
+$color150: #43ACED; //accent blue
+
+$color200: #F7FAFD; //very light blue
+$color250: #EAF4FC; //light blue
+
+$color300: #123B68; //dark blue
+$color350: #17263A; //very dark blue
+
+// FONTS
+@mixin jakarta-light {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+@mixin jakarta-regular {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+@mixin jakarta-semibold {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+@mixin jakarta-bold {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+@mixin jakarta-extrabold {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+// <<<  SHADOWS >>>
+@mixin boxShadowReg {
+    box-shadow: 0px 10px 30px 0px rgba(21,101,169,0.15);
+}
+@mixin boxShadowLight {
+    box-shadow: 0 45px 35px -30px rgba(0, 0, 0, .3);
+}
+
