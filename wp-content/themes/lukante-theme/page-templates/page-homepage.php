@@ -360,7 +360,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         class="d-flex justify-content-center justify-content-md-start"
                         data-usal="fade-u blur delay-1100 duration-1000"
                     >
-                        <a href="<?php echo get_permalink(0); ?>" class="btn">
+                        <a href="<?php echo get_permalink(14); ?>" class="btn">
                             <span>Zobacz pełną ofertę</span>
                         </a>
                     </div>

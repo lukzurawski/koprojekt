@@ -1530,7 +1530,7 @@ section {
     background: #fff;
 }
 .section-cta-global__txt {
-    color: $color350;
+    color: $color100;
     font-size: 1.1rem;
     @include jakarta-semibold;
     line-height: 1.6;
@@ -1599,4 +1599,20 @@ section {
     @include jakarta-semibold;
     color: #fff;
     line-height: 1.3;
+}
+
+// ------------------------------
+// ------ OFFER PAGE --------------
+// ------------------------------
+
+.section-offer__box {
+    min-height: 350px;
+}
+.section-cta-global__txt--light {
+    @include jakarta-light;
+    color: $color100;
+}
+
+.section-cta-global__txt--dark {
+    color: $color350;
 }
