@@ -64,7 +64,7 @@ $color350: #17263A; //very dark blue
 // <<< gradients >>>
 @mixin lightgradient {
     background: #FFFFFF;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 35%, rgba(247, 250, 253, 0.5) 100%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 35%, rgba(247, 250, 253, 0.4) 100%);
 }
 @mixin backgroundgradient {
     background: #F7FAFD;

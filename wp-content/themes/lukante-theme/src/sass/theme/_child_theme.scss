@@ -99,9 +99,6 @@ section {
     transition: all .5s;
     @include boxShadowReg;
     top: 0;
-    -webkit-backdrop-filter: blur(25px);
-    backdrop-filter: blur(25px);
-    background: rgba(255, 255, 255, 0.4);
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
 }
@@ -1451,4 +1448,155 @@ section {
     &:hover {
         color: $color150;
     }
+}
+
+// --------
+// GLOBAL PAGES STYLES
+// --------
+
+/* SECTION HERO */
+.section-hero--global {
+    position: relative;
+    min-height: 60dvh;
+}
+
+.section-hero__header--global {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.section-hero__subheader--global {
+    @include jakarta-bold;
+    font-size: 1.7rem;
+    text-align: left;
+    color: $color250;
+    line-height: 1.45;
+}
+.section-dark-glassbox {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.section-header--global {
+    font-size: 2rem;
+    @include jakarta-regular;
+    color: $color350;
+}
+
+.section-about__box--global {
+    position: relative;
+    @include jakarta-light;
+    font-style: italic;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    padding: .5rem 1.5rem 1.5rem;
+
+    text-align: left;
+
+    @include lightgradient;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+
+    @include boxShadowReg;
+}
+
+.section-about--homepage .section__imagebox {
+    position: relative;
+    padding: .85rem;
+    background: rgba(255, 255, 255, .25);
+    border: 1px solid rgba(255, 255, 255, .85);
+    border-radius: 24px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px 0 rgba(21, 101, 169, .15);
+    width: fit-content;
+}
+.section__image {
+    border-radius: 12px;
+}
+
+.section-cta--global {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: $color250;
+}
+.section-cta-box--global {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: #fff;
+}
+.section-cta-global__txt {
+    color: $color350;
+    font-size: 1.1rem;
+    @include jakarta-semibold;
+    line-height: 1.6;
+}
+.section-cta__icon {
+    max-height: 100px;
+}
+.section-cta--box {
+    padding: 2rem 3rem;
+    background: $color250;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    @include boxShadowReg;
+}
+
+// ------------------------------
+// ------ ABOUT US PAGE --------------
+// ------------------------------
+
+.section-school--aboutuspage {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: #fff;
+}
+    .section__header {
+        margin: 0;
+
+        color: $color350;
+
+        font-size: clamp(2rem, 3vw, 2.8rem);
+        line-height: 1.2;
+        text-align: left;
+        @include jakarta-bold;
+    }
+
+    .section__header-line {
+        width: 65px;
+        height: 3px;
+
+        margin: .8rem 0;
+
+        background: $color100;
+    }
+.section-school__box {
+    border-radius: 12px;
+    background: $color300;
+    @include boxShadowReg;
+    color: #fff;
+    padding: 1.5rem;
+    min-height: 200px;
+}
+.section-school__icon {
+    max-height: 50px;
+    width: auto;
+}
+.section-school__box-header {
+    margin: 0;
+    font-size: 1.3rem;
+    @include jakarta-bold;
+    color: #fff;
+    line-height: 1.2;
+}
+.section-school__box-subheader {
+    margin: 0;
+    font-size: 1.1rem;
+    @include jakarta-semibold;
+    color: #fff;
+    line-height: 1.3;
 }

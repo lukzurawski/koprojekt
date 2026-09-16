@@ -64,7 +64,7 @@ if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
             const percentX = x / rect.width;
             const percentY = y / rect.height;
 
-            const maxTilt = 20;
+            const maxTilt = 10;
 
             const rotateX = (0.5 - percentY) * maxTilt * 2;
             const rotateY = (percentX - 0.5) * maxTilt * 2;
