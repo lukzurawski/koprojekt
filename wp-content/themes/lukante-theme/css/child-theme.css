@@ -15145,7 +15145,8 @@ section {
   align-items: center;
   flex-direction: column;
   overflow: hidden;
-  padding-top: 7rem;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
 }
 .section-hero--homepage:before {
   content: "";
@@ -16253,6 +16254,77 @@ section {
 
 .section-cta-global__txt--dark {
   color: #17263A;
+}
+
+.contact-card__form,
+.right-contactsidebar {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(15px);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0px 10px 30px 0px rgba(21, 101, 169, 0.15);
+}
+
+.contact-card-form__title,
+.right-contactsidebar__header {
+  text-align: center;
+  color: #17263A;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.contact-card .wpforms-container .wpforms-form .wpforms-field-label,
+.right-contactsidebar__contacts {
+  color: #17263A;
+}
+.contact-card .wpforms-container .wpforms-form .wpforms-field-label img,
+.right-contactsidebar__contacts img {
+  max-height: 80px;
+  width: auto;
+}
+
+.contact-card a {
+  color: #17263A;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  font-size: 1.2rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.contact-card a:hover {
+  color: #43ACED;
+}
+
+.contact-card svg {
+  margin-right: 1rem;
+}
+
+.right-contactsidebar__contacts h2 > p, .right-contactsidebar__contacts .h2 > p {
+  margin: 0;
+  padding: 0;
+  color: #1565A9;
+  line-height: 1;
+  font-size: 2rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.contact-card p {
+  color: #17263A;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  font-size: 1.2rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .has-blue-color,

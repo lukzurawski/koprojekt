@@ -24,13 +24,13 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="ps-4 pr-4">
                         <img src="<?php echo get_home_url();?>/wp-content/themes/lukante-theme/img/icon_quote.svg" class="img-fluid mb-3 mt-3" alt="quote icon" data-usal="fade-u blur delay-500 duration-1000">
                         <h1 class="section-hero__header" data-usal="fade-u split-letter split-delay-10">Jakość nigdy nie jest dziełem przypadku. Jest zawsze rezultatem przemyślanego działania.</h1>
-                        <p class="section-hero__subheader" data-usal="fade-d blur delay-1500 duration-1000">- John Ruskin</p>
+                        <p class="section-hero__subheader" data-usal="fade-d blur delay-500 duration-1000">- John Ruskin</p>
                     </div>
-                    <div class="section-hero__buttons d-flex flex-row justify-content-center" data-usal="fade-u blur delay-2000 duration-1000">  
+                    <div class="section-hero__buttons d-flex flex-row justify-content-center" data-usal="fade-u blur delay-800 duration-1000">  
                         <a href="#section-about" class="btn m-1">
                             <span>Sprawdź kim jesteśmy</span>
                         </a>
-                        <a href="<?php echo get_permalink(0); ?>" class="btn m-1">
+                        <a href="<?php echo get_permalink(16); ?>" class="btn m-1">
                             <span>Zobacz nasze realizacje</span>
                         </a>
                     </div>
@@ -68,7 +68,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
                     <div class="section-about__line"></div>
 
-                    <div class="section-about__text" data-usal="fade-u blur delay-500 duration-1000">
+                    <div class="section-about__text" data-usal="fade-u blur duration-500">
                         <p>
                             KOProjekt to rzetelne usługi projektowe i doradztwo
                             techniczne dla małych i średnich inwestycji.
@@ -90,7 +90,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </p>
                     </div>
 
-                    <a href="<?php echo get_permalink(12); ?>" class="btn">
+                    <a href="<?php echo get_permalink(12); ?>" class="btn" data-usal="fade-u blur duration-300">
                         <span>Poznaj nas</span>
                     </a>
 
@@ -245,7 +245,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div>
 
                 <div class="d-flex justify-content-center" data-usal="fade-u blur delay-500 duration-1000">
-                    <a href="<?php echo get_permalink(0); ?>" class="btn">
+                    <a href="<?php echo get_permalink(16); ?>" class="btn">
                         <span>Nasze realizacje</span>
                     </a>
                 </div>
@@ -610,7 +610,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     data-usal="fade-u blur delay-500 duration-1000"
                 >
 
-                    <a href="<?php echo get_permalink(0); ?>" class="btn">
+                    <a href="<?php echo get_permalink(18); ?>" class="btn">
                         <span>Skontaktuj się z nami</span>
                     </a>
 

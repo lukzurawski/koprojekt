@@ -22,8 +22,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col-12 col-md-6 d-flex justify-content-start align-items-start flex-column">
                 <div class="section-dark-glassbox section-dark-glassbox--global">
                     <div class="ps-4 pr-4">
-                        <h1 class="section-hero__header section-hero__header--global" data-usal="fade-u">Realizacje</h1>
-                        <p class="section-hero__subheader--global" data-usal="fade-u split-letter split-delay-10">Wieloletnie doświadczenie, dziesiątki zrealizowanych projektów i zaufanie klientów z różnych gałęzi przemysłu.</p>
+                        <h1 class="section-hero__header section-hero__header--global">Realizacje</h1>
+                        <p class="section-hero__subheader--global" data-usal="fade-u">Wieloletnie doświadczenie, dziesiątki zrealizowanych projektów i zaufanie klientów z różnych gałęzi przemysłu.</p>
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     data-usal="fade-u blur delay-500 duration-1000"
                 >
 
-                    <a href="#" class="btn">
+                    <a href="<?php echo get_permalink(18); ?>" class="btn">
                         <span>Skontaktuj się z nami</span>
                     </a>
 

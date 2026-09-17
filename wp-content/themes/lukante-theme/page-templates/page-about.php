@@ -22,8 +22,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col-12 col-md-6 d-flex justify-content-start align-items-start flex-column">
                 <div class="section-dark-glassbox section-dark-glassbox--global">
                     <div class="ps-4 pr-4">
-                        <h1 class="section-hero__header section-hero__header--global" data-usal="fade-u">O nas</h1>
-                        <p class="section-hero__subheader--global" data-usal="fade-u split-letter split-delay-10">Łączymy wiedzę inżynierską z praktycznym doświadczeniem, aby tworzyć bezpieczne i funkcjonalne rozwiązania.</p>
+                        <h1 class="section-hero__header section-hero__header--global">O nas</h1>
+                        <p class="section-hero__subheader--global" data-usal="fade-u">Łączymy wiedzę inżynierską z praktycznym doświadczeniem, aby tworzyć bezpieczne i funkcjonalne rozwiązania.</p>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="row mt-3">
 
             <div class="col-md-3">
-                <div class="section-school__box" data-usal="fade-u blur delay-500 duration-500">
+                <div class="section-school__box mb-2" data-usal="fade-u blur delay-500 duration-500">
                     <div class="d-flex justify-content-start align-items-center flex-row mb-3">
                         <img src="<?php echo get_home_url();?>/wp-content/themes/lukante-theme/img/icon-edu.svg" class="img-fluid me-2 section-school__icon" alt="quote icon" data-usal="fade-u blur delay-500 duration-1000">
                         <p class="section-school__box-header">WSB</p>
@@ -129,7 +129,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
 
             <div class="col-md-3">
-                <div class="section-school__box" data-usal="fade-d blur delay-700 duration-500">
+                <div class="section-school__box mb-2" data-usal="fade-d blur delay-700 duration-500">
                     <div class="d-flex justify-content-start align-items-center flex-row mb-3">
                         <img src="<?php echo get_home_url();?>/wp-content/themes/lukante-theme/img/icon-edu.svg" class="img-fluid me-2 section-school__icon" alt="quote icon" data-usal="fade-u blur delay-500 duration-1000">
                         <p class="section-school__box-header">Główny Instytut Górnictwa (GIG)</p>
@@ -139,7 +139,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
 
             <div class="col-md-3">
-                <div class="section-school__box" data-usal="fade-u blur delay-900 duration-500">
+                <div class="section-school__box mb-2" data-usal="fade-u blur delay-900 duration-500">
                     <div class="d-flex justify-content-start align-items-center flex-row mb-3">
                         <img src="<?php echo get_home_url();?>/wp-content/themes/lukante-theme/img/icon-edu.svg" class="img-fluid me-2 section-school__icon" alt="quote icon" data-usal="fade-u blur delay-500 duration-1000">
                         <p class="section-school__box-header">Wyższą Szkołę Informatykii Zarządzania w Rzeszowie</p>
@@ -149,7 +149,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
 
             <div class="col-md-3">
-                <div class="section-school__box" data-usal="fade-d blur delay-1100 duration-500">
+                <div class="section-school__box mb-2" data-usal="fade-d blur delay-1100 duration-500">
                     <div class="d-flex justify-content-start align-items-center flex-row mb-3">
                         <img src="<?php echo get_home_url();?>/wp-content/themes/lukante-theme/img/icon-edu.svg" class="img-fluid me-2 section-school__icon" alt="quote icon" data-usal="fade-u blur delay-500 duration-1000">
                         <p class="section-school__box-header">Politechnikę Śląską</p>
@@ -236,7 +236,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     data-usal="fade-u blur delay-500 duration-1000"
                 >
 
-                    <a href="#" class="btn">
+                    <a href="<?php echo get_permalink(18); ?>" class="btn">
                         <span>Skontaktuj się z nami</span>
                     </a>
 

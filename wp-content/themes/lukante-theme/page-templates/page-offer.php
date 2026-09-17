@@ -22,8 +22,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col-12 col-md-6 d-flex justify-content-start align-items-start flex-column">
                 <div class="section-dark-glassbox section-dark-glassbox--global">
                     <div class="ps-4 pr-4">
-                        <h1 class="section-hero__header section-hero__header--global" data-usal="fade-u">Oferta</h1>
-                        <p class="section-hero__subheader--global" data-usal="fade-u split-letter split-delay-10">Specjalizujemy się w kompleksowym opracowywaniu dokumentacji technicznej dla stanowisk nalewczych i odbiorczych (NO) oraz infrastruktury związanej z przeładunkiem, magazynowaniem i dystrybucją surowców.</p>
+                        <h1 class="section-hero__header section-hero__header--global">Oferta</h1>
+                        <p class="section-hero__subheader--global" data-usal="fade-u">Specjalizujemy się w kompleksowym opracowywaniu dokumentacji technicznej dla stanowisk nalewczych i odbiorczych (NO) oraz infrastruktury związanej z przeładunkiem, magazynowaniem i dystrybucją surowców.</p>
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <div class="section-about__content">
 
                     <h2 class="section__header"
-                            data-usal="fade-u blur delay-500 duration-1000">
+                            data-usal="fade-u blur duration-1000">
                     Zakres <span class="color100">naszych usług</span> obejmuje:
                     </h2>
 
@@ -59,7 +59,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
         <div class="row mt-3">
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="section-school__box section-offer__box" data-usal="fade-d blur delay-700 duration-500">
                     <div class="d-flex justify-content-start align-items-start flex-column mb-3">
                         <img src="<?php echo get_home_url();?>/wp-content/themes/lukante-theme/img/icon_note.svg" class="img-fluid mb-2 section-school__icon" alt="quote icon" data-usal="fade-u blur delay-500 duration-1000">
@@ -69,7 +69,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="section-school__box section-offer__box" data-usal="fade-d blur delay-700 duration-500">
                     <div class="d-flex justify-content-start align-items-start flex-column mb-3">
                         <img src="<?php echo get_home_url();?>/wp-content/themes/lukante-theme/img/icon_note.svg" class="img-fluid mb-2 section-school__icon" alt="quote icon" data-usal="fade-u blur delay-500 duration-1000">
@@ -85,7 +85,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
                 <div class="section-school__box section-offer__box" data-usal="fade-d blur delay-700 duration-500">
                     <div class="d-flex justify-content-start align-items-start flex-column mb-3">
                         <img src="<?php echo get_home_url();?>/wp-content/themes/lukante-theme/img/icon_note.svg" class="img-fluid mb-2 section-school__icon" alt="quote icon" data-usal="fade-u blur delay-500 duration-1000">
@@ -200,7 +200,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     data-usal="fade-u blur delay-500 duration-1000"
                 >
 
-                    <a href="#" class="btn">
+                    <a href="<?php echo get_permalink(18); ?>" class="btn">
                         <span>Skontaktuj się z nami</span>
                     </a>
 

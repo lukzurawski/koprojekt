@@ -211,7 +211,8 @@ section {
     align-items: center;
     flex-direction: column;
     overflow: hidden;
-    padding-top: 7rem;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
 
     &:before {
         content:"";
@@ -1615,4 +1616,64 @@ section {
 
 .section-cta-global__txt--dark {
     color: $color350;
+}
+
+// ------------------------------
+// ------ CONTACT PAGE --------------
+// ------------------------------
+
+.contact-card__form,
+.right-contactsidebar {
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border-radius: 12px;
+    padding: 2rem;
+    @include boxShadowReg;
+}
+.contact-card-form__title,
+.right-contactsidebar__header {
+    text-align: center;
+    color: $color350;
+    @include jakarta-semibold;
+    font-size: 2rem;
+}
+.contact-card .wpforms-container .wpforms-form .wpforms-field-label,
+.right-contactsidebar__contacts {
+    color: $color350;
+
+    & img {
+        max-height: 80px;
+        width: auto;
+    }
+}
+.contact-card a {
+    color: $color350;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-size: 1.2rem;
+    @include jakarta-semibold;
+
+    &:hover {
+        color: $color150;
+    }
+}
+.contact-card svg {
+    margin-right: 1rem;
+}
+
+.right-contactsidebar__contacts h2 > p {
+    margin: 0;
+    padding: 0;
+    color: $color100;
+    line-height: 1;
+    font-size: 2rem;
+    @include jakarta-semibold;
+}
+.contact-card p {
+    color: $color350;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-size: 1.2rem;
+    @include jakarta-semibold;
 }
